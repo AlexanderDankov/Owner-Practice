@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.Sources({
         "system:properties",
         "classpath:config/${env}.properties",
-        "classpath:config/credential.properties"
+        "classpath:config/Credential.properties"
 })
 public interface WebConfig extends Config {
 
